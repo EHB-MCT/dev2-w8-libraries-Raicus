@@ -35,11 +35,9 @@ function loadMarkers() {
 					toilet.geo_point_2d.lon
 				) {
 					addMarker(toilet.geo_point_2d.lat, toilet.geo_point_2d.lon);
+					console.log(toilet);
 				}
 			}
-		})
-		.catch(function (error) {
-			console.error("Data error:", error);
 		});
 }
 
