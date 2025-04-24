@@ -59,7 +59,7 @@ function addMarker(lat, lon) {
 		color: "red",
 		fillColor: "#30f",
 		fillOpacity: 0.2,
-		radius: 100,
+		radius: 200,
 	}).addTo(map);
 
 	var popup = L.popup();
